@@ -1,0 +1,14 @@
+# function to calculate the area of a circle
+ 
+def calculate_area(radius):
+    return math.pi * radius ** 2
+
+# taking input from user
+radius = float(input("enter radius of the circle: "))
+
+# calculating the area
+area = calculate_area(radius)
+
+
+# displaying the result
+print(f"the area of the circle with radius {radius} is {area:.2f}")
